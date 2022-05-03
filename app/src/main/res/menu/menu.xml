@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_herramienta_de_configuracion_de_engranajes"
+        android:id="@+id/item1"
+        android:title="Configuracion"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:icon="@drawable/ic_cerrarsesion"
+        android:id="@+id/item2"
+        android:title="Configuracion"
+        app:showAsAction="always"
+        />
+
+</menu>

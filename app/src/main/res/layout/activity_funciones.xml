@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".Funciones">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            layout="@layout/main_toolbar"/>
+
+        <!--Todo el contenido de la activity-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-thin"
+                        android:paddingLeft="20sp"
+                        android:paddingTop="10sp"
+                        android:paddingRight="20sp"
+                        android:text="@string/title_activity_funciones"
+                        android:textSize="15sp"
+                        android:typeface="serif" />
+
+                    <Switch
+                        android:id="@+id/switchMotor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="8sp"
+                        android:text="@string/spinner_detener_motor"
+                        android:textColor="#000"
+                        android:textSize="17sp"
+                        android:typeface="serif" />
+
+                    <Switch
+                        android:id="@+id/switchSensor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="8sp"
+                        android:text="@string/spinner_alarma_vibracion"
+                        android:textColor="#000"
+                        android:textSize="17sp" />
+
+                    <Switch
+                        android:id="@+id/switchMove"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="8sp"
+                        android:text="@string/spinner_alarma_desplazamiento"
+                        android:textColor="#000"
+                        android:textSize="17sp" />
+
+                    <Switch
+                        android:id="@+id/switchCorteEnergia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="8sp"
+                        android:text="@string/spinner_alarma_corteenergia"
+                        android:textColor="#000"
+                        android:textSize="17sp" />
+
+                    <Switch
+                        android:id="@+id/switchBateria"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="8sp"
+                        android:text="@string/spinner_alarma_bateriabaja"
+                        android:textColor="#000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center"
+                        android:paddingTop="15sp"
+                        android:text="@string/limitevelocidad"
+                        android:textColor="#000"
+                        android:textSize="17sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="20sp"
+                        android:paddingRight="20sp"
+                        android:paddingBottom="15sp">
+
+                        <EditText
+                            android:id="@+id/editTextLimite"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="50"
+                            android:hint="Limite Km/h"
+                            android:inputType="number"
+                            android:textSize="17sp"/>
+
+                        <Switch
+                            android:id="@+id/switchLimiteV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="50"
+                            android:text=""
+                            android:textColor="#000" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center"
+                        android:paddingTop="15sp"
+                        android:text="@string/localizacionprogramada"
+                        android:textColor="#000"
+                        android:textSize="17sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="20sp"
+                        android:paddingRight="20sp"
+                        android:paddingBottom="15sp">
+
+                        <EditText
+                            android:id="@+id/editTextIntervalos"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="50"
+                            android:hint="@string/tiempo"
+                            android:inputType="number"
+                            android:textSize="17sp"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <RadioGroup
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <RadioButton
+                                    android:id="@+id/radio1"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/horas"
+                                    android:textSize="13sp"/>
+
+                                <RadioButton
+                                    android:id="@+id/radio2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/minutos"
+                                    android:textSize="13sp"/>
+                            </RadioGroup>
+
+                        </LinearLayout>
+
+                        <Switch
+                            android:id="@+id/switchSeguimiento"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="50"
+                            android:paddingTop="20sp"
+                            android:text=""
+                            android:textColor="#000"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:gravity="center"
+                        android:paddingTop="10sp"
+                        android:text="@string/geocerca"
+                        android:textColor="#000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-light"
+                        android:text="@string/coordenadas"
+                        android:textColor="#000"
+                        android:paddingLeft="20sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="20sp"
+                        android:paddingRight="20sp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/superiorizquierda"
+                            android:textColor="#000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/inferiorderecha"
+                            android:textColor="#000" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.2" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="20sp"
+                        android:paddingRight="20sp"
+                        android:paddingBottom="20sp">
+
+                        <EditText
+                            android:id="@+id/C_S_Izquierda"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="Lat , Long"
+                            android:textSize="17sp"/>
+
+                        <EditText
+                            android:id="@+id/C_I_Derecha"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:hint="Lat , Long"
+                            android:textSize="17sp"/>
+
+                        <Switch
+                            android:id="@+id/switchGeocerca"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.2" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include
+            layout="@layout/main_nav_drawer"/>
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

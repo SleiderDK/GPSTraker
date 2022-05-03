@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">GPS Tracker</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="funciones">Functions</string>
+    <string name="inicio">Home</string>
+    <string name="rastrear">TRACK</string>
+
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <!--
+    Texto de activity Funciones
+    -->
+    <string name="title_activity_funciones">Alarms and Functions</string>
+    <string name="spinner_detener_motor">Stop motor</string>
+    <string name="spinner_alarma_vibracion">Vibration alarm</string>
+    <string name="spinner_alarma_desplazamiento">Travel alarm</string>
+    <string name="spinner_alarma_corteenergia">Power cut alarm</string>
+    <string name="spinner_alarma_bateriabaja">Low battery alarm</string>
+    <string name="limitevelocidad">Speed limit</string>
+
+    <string name="localizacionprogramada">Scheduled location</string>
+    <string name="tiempo">Time</string>
+    <string name="horas">Hours</string>
+    <string name="minutos">Minutes</string>
+
+    <string name="geocerca">Geofence</string>
+    <string name="coordenadas">Coordinates:</string>
+    <string name="superiorizquierda">upper left</string>
+    <string name="inferiorderecha">lower right</string>
+
+    <!--
+    Texto de activity configuracion
+    -->
+    <string name="configuracion">Setting</string>
+    <string name="protocolo">Communication protocol</string>
+    <string name="tiempoactualizacion">Location update time</string>
+    <string name="tipomapa">Map type</string>
+    <string name="numerotelefonorastreador">Tracker phone number</string>
+    <string name="numerotelefonoadministrador">Administrator phone number</string>
+    <string name="aplicarcambios">Apply changes</string>
+    <string name="cancelarcambios">Cancel changes</string>
+
+    <string name="su_vehiculo">Your vehicle is here</string>
+    <string name="title_activity_maps_pruaba">MapsPruabaActivity</string>
+
+</resources>

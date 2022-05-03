@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_baseline_mic_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_baseline_power_settings_new_24.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_candado.xml" value="0.2203125" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_candado_white.xml" value="0.2203125" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_cerrarsesion.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_engranajes.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_funciones.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_herramienta_de_configuracion_de_engranajes.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_logo.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_person.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_play.xml" value="0.2203125" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_salir.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_stop.xml" value="0.2203125" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_userlogo.xml" value="0.2203125" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/rec_gradient.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/rec_gradient_fb.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/side_nav_bar.xml" value="0.2169230769230769" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/activity_configuracion.xml" value="0.25" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/activity_funciones.xml" value="0.25" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/activity_http.xml" value="0.17527173913043478" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/activity_maps_pruaba.xml" value="0.1331521739130435" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/activity_splash.xml" value="0.15" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/main_nav_drawer.xml" value="0.25" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/main_toolbar.xml" value="0.15" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Sleider/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/menu/menu2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_alerta.xml" value="0.2203125" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_alertanuevo.xml" value="0.2203125" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_auto.xml" value="0.2203125" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1125" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_baseline_mic_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_cancelar.xml" value="0.2203125" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_candado.xml" value="0.2203125" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_cheque.xml" value="0.2203125" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_hacia_atras.xml" value="0.1125" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/drawable/ic_herramienta_de_configuracion_de_engranajes.xml" value="0.2203125" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/activity_configuracion.xml" value="0.25" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/activity_funciones.xml" value="0.22" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/activity_maps.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/layout/activity_splash.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/sleid/AndroidStudioProjects/UbicacionTiempoReal/app/src/main/res/menu/menu2.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

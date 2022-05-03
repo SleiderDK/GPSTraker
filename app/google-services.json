@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "660889598682",
+    "firebase_url": "https://ubicaciontiemporeal-58bda-default-rtdb.firebaseio.com",
+    "project_id": "ubicaciontiemporeal-58bda",
+    "storage_bucket": "ubicaciontiemporeal-58bda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660889598682:android:baa46981b132d9880c03e3",
+        "android_client_info": {
+          "package_name": "com.example.ubicaciontiemporeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660889598682-368q2fvbjbu6fkp3l31m751dts7gg24b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ubicaciontiemporeal",
+            "certificate_hash": "c5005edac8da7d7a629e38c36fe9dc6dd499d05d"
+          }
+        },
+        {
+          "client_id": "660889598682-j5jhae3u4rqlrmo2919a2lg678a2hg5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOaK-7al8lNeHPz1IaaoKhsNO1x1MrnFc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660889598682-j5jhae3u4rqlrmo2919a2lg678a2hg5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

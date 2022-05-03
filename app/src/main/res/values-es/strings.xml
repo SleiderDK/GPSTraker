@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPS Tracker</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="funciones">Funciones</string>
+    <string name="inicio">Inicio</string>
+    <string name="rastrear">RASTREAR</string>
+
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+
+    <!--
+    Texto de activity Funciones
+    -->
+    <string name="title_activity_funciones">Alarmas y Funciones</string>
+    <string name="spinner_detener_motor">Detener motor</string>
+    <string name="spinner_alarma_vibracion">Alarma de vibración</string>
+    <string name="spinner_alarma_desplazamiento">Alarma de desplazamiento</string>
+    <string name="spinner_alarma_corteenergia">Alarma de corte de energía</string>
+    <string name="spinner_alarma_bateriabaja">Alarma de batería baja</string>
+    <string name="limitevelocidad">Límite de velocidad</string>
+
+    <string name="localizacionprogramada">Localización programada</string>
+    <string name="tiempo">Tiempo</string>
+    <string name="horas">Horas</string>
+    <string name="minutos">Minutos</string>
+
+    <string name="geocerca">Geocerca</string>
+    <string name="coordenadas">Coordenadas:</string>
+    <string name="superiorizquierda">superior izquierda</string>
+    <string name="inferiorderecha">inferior derecha</string>
+
+    <!--
+    Texto de activity configuracion
+    -->
+    <string name="configuracion">Configuración</string>
+    <string name="protocolo">Protocolo de comunicación</string>
+    <string name="tiempoactualizacion">Tiempo de actualización de ubicación</string>
+    <string name="tipomapa">Tipo de mapa</string>
+    <string name="numerotelefonorastreador">Número teléfono rastreador</string>
+    <string name="numerotelefonoadministrador">Número teléfono administrador</string>
+    <string name="aplicarcambios">Aplicar cambios</string>
+    <string name="cancelarcambios">Cancelar cambios</string>
+
+    <string name="su_vehiculo">Su vehiculo esta aquí</string>
+
+</resources>
